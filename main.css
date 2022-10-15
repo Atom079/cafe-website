@@ -142,3 +142,133 @@ a
     color: white;    
 }
 /* /Intro styling */
+/* Menu Styling */
+#menu
+{
+    background-image: url("./img/antique-cafe-bg-02.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10rem 0;
+    font-family: "Menu Fonts", sans-serif;
+}
+.heading_mu
+{
+    background-color: #fff;
+    padding: 1rem;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 4rem;
+    font-size: 1.5rem;
+    color: #544639; 
+}
+.menu
+{
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+.menu2
+{
+    background-color: #544639;
+    width: 45%;
+    padding: 1rem;
+    border-radius: .8rem;
+}
+.menu1
+{
+    background-color: #544639;
+    width: 45%;
+    padding: 1rem;
+    border-radius: .8rem;
+}
+.menu1 .menu-row
+{
+    display: flex;
+    margin: 1rem 0;
+}
+.menu2 .menu-row
+{
+    display: flex;
+    margin: 1rem auto;
+    text-align: right;
+    justify-content: end;
+}
+.menu-row img
+{
+    margin: 0.2rem 1rem;
+    border-radius: 0.3rem;
+}
+.menu-row h3
+{
+    color: #ffcc66;
+    font-weight: normal;
+
+}
+.menu-row p
+{
+    color: #fff;
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    
+}
+.menu-row img
+{
+    object-fit: cover;
+}
+.btn_mu2
+{
+    background-color: #fff;
+    width: 10rem;
+    text-align: center;
+    margin-left: auto;
+    padding: 0.5rem;
+    border-radius: 3rem;
+    transition: .4s ease;
+    color: #544639;
+}
+.btn_mu1
+{
+    background-color: #fff;
+    width: 10rem;
+    text-align: end;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 3rem;
+    transition: .4s ease;
+}
+.btn_mu1 a, i
+{
+    color: #544639;
+    font-weight: 600;
+}
+.btn_mu2 a, i
+{
+    color: #544639;
+    font-weight: 600;
+}
+.btn_mu1:hover, .btn_mu2:hover
+{
+    background-color: #CC9966;
+    color: #fff;
+}
+.btn_mu1:hover a
+{
+    color: #fff;
+}
+.btn_mu1:hover i
+{
+    color: #fff;
+}
+.btn_mu2:hover a
+{
+    color: #fff;
+}
+.btn_mu2:hover i
+{
+    color: #fff;
+}
+/* /Menu Styling */
