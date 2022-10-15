@@ -1,4 +1,11 @@
 /* Default styling */
+@font-face {
+    font-family: "Intro Fonts";
+    src: url("./fonts/fonts_intro/Poppins-Light.ttf");
+    font-family: "Menu Fonts";
+    src:url("./fonts/menu-font/Montserrat-VariableFont_wght.ttf");
+}
+
 *
 {
     margin: 0;
@@ -10,3 +17,128 @@ a
     text-decoration: none;
     color: black;
 }
+/* Intro styling */
+#intro
+{
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("./img/antique-cafe-bg-01.jpg");
+    font-family: "Intro Fonts", sans-serif;
+    padding-bottom: 1rem;
+    
+}
+.navbar
+{
+    display: flex;
+    position: relative;
+    width: 100%;
+   
+}
+.nav-links
+{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    float: right;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.718);
+    height: 12vh;
+}
+.nav-links li
+{
+    width: 14%;
+}
+.nav-links li a
+{
+    color: #CC9966;
+    font-size: 1.5rem;
+    position: relative;
+
+}
+.nav-links li a::after
+{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    background-color: #CC9966;
+    height: 0.2rem;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease;
+    opacity: 0;
+}
+.nav-links li a:hover:after
+{
+    opacity: 1;
+}
+.content_io
+{
+    margin: 10% 0;
+}
+.text_io
+{
+    width: 30%;
+    padding: 3rem 2rem;
+    background-color: rgba(0, 0, 0, 0.738);
+    margin: 0 auto;
+}
+.heading_io
+{
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3.5rem;
+    color: white;
+    letter-spacing: 0rem;
+}   
+.par1_io
+{
+    color: #CC9966;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.add_text_io
+{
+    width: 30%;
+    padding: 3rem 2rem;
+    background-color: rgba(0, 0, 0, 0.738);
+    margin: 1rem auto;
+}
+.par2_io
+{
+    color: white;
+    font-size: 1rem;
+}
+.par2_io a
+{
+    color: #22ff00;
+}
+.par2_io a:hover
+{
+    color: #fff;
+}
+.btn
+{
+    width: 30%;
+    padding: 1rem 1rem;
+    background-color: rgba(0, 0, 0, 0.827);
+    margin: 1rem auto;
+    text-align: center;
+    color: #9bcc66;
+    border-radius: 4rem;
+}
+.btn a, i
+{
+    color: #CC9966;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.btn a:hover
+{
+    color: white;    
+}
+/* /Intro styling */
