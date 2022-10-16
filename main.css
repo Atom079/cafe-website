@@ -4,6 +4,8 @@
     src: url("./fonts/fonts_intro/Poppins-Light.ttf");
     font-family: "Menu Fonts";
     src:url("./fonts/menu-font/Montserrat-VariableFont_wght.ttf");
+    font-family: "About Fonts";
+    src: url("./fonts/about-font/RobotoCondensed-Light.ttf");
 }
 
 *
@@ -272,3 +274,58 @@ a
     color: #fff;
 }
 /* /Menu Styling */
+/* About styling */
+#about
+{
+    background-image: url('./img/antique-cafe-bg-03.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    padding: 1rem;
+    font-family: "About Font", sans-serif;
+    color: #006666;
+}
+.content
+{
+    width:  40%;
+    height: 75%;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.718);
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.content h2
+{
+    font-size: 2.4rem;
+    padding: 1rem;
+}
+.content .par_at
+{
+    padding: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+.btn_at
+{
+    width: 20%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #006666;
+    margin: 0 1rem;
+    border-radius: 3rem;
+    transition: .4s ease;
+}
+.btn_at a, i
+{
+    color: #fff;
+    margin-left: 10%;
+}
+.btn_at:hover
+{
+    opacity: 0.8;
+}
+/* /About styling */
