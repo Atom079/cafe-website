@@ -6,6 +6,8 @@
     src:url("./fonts/menu-font/Montserrat-VariableFont_wght.ttf");
     font-family: "About Fonts";
     src: url("./fonts/about-font/RobotoCondensed-Light.ttf");
+    font-family: "Contact and Footer Fonts";
+    src: url("./fonts/contact-footer-font/Raleway-VariableFont_wght.ttf");
 }
 
 *
@@ -60,7 +62,7 @@ a
     color: #CC9966;
     font-size: 1.5rem;
     position: relative;
-
+    padding-bottom: 1rem;
 }
 .nav-links li a::after
 {
@@ -329,3 +331,116 @@ a
     opacity: 0.8;
 }
 /* /About styling */
+/* Contact and Footer Styling */
+#contact
+{
+    background-image: url("./img/antique-cafe-bg-04.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: "Contact and Footer Fonts", sans-serif;
+}
+.content_ct
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+.text-content
+{
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.718);
+    width: 70%;
+    border-radius: 1rem;
+}
+.form-content
+{
+    background-color: rgba(0, 0, 0, 0.718);
+    padding: 1rem;
+    width: 100%;
+}
+.text-content h3
+{
+    color: #006666;
+    font-size: 2rem;
+    padding: 1.3rem 0;
+    letter-spacing: 0.2rem;
+}
+.text-content .par_main_ct
+{
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+.text-content .par_ct
+{
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+}
+.text-content .par_ct a
+{
+    color: #006666;
+}
+.btn_ct
+{
+    width: 70%;
+    padding: 1rem;
+    text-align: center;
+    background-color: #006666;
+    border-radius: 3rem;
+    margin: 1rem 0;    
+    transition: .4s ease;
+}
+.btn_ct:hover
+{
+    opacity: .8;
+}
+.btn_ct a
+{
+    color: #fff;
+}
+.par_foo
+{
+    display: flex;
+    align-items: end;
+    color: #fff;
+    margin-top: 5%;
+}
+.form-content input, textarea
+{
+    padding: 1rem;
+    background-color: transparent;
+    border: none;
+    margin: 1rem 0;
+    width: 100%;
+    color: white;
+    font-family: "Contact and Footer Fonts", sans-serif;
+    transition: .4s ease;
+    border-bottom: 1px solid #fff;
+}
+.form-content input:focus, textarea:focus
+{
+    outline: none;
+}
+.form-content ::placeholder
+{
+    color: #fff;
+}
+.form-content input:hover, textarea:hover
+{
+    border: 1px solid yellow;
+}
+.a_form
+{
+    display: flex;
+    justify-content: end;
+    color: #fff;
+}
+.a_form:hover
+{
+    color: #CC9966;
+}
+/* /Contact and Footer Styling */
